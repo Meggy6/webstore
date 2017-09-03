@@ -10,6 +10,12 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!--jQuery Style-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,7 +28,7 @@
 <body>
 <!--HEADER START-->
 <header>
-    <div class="top-header">
+    <div class="top-header white-bg">
         <div class="container">
             <div class="flex-container justify-sp-between">
                 <ul class="phones-list flex-container align-center">
@@ -38,10 +44,26 @@
             </div>
         </div>
     </div>
-    <div class="bottom-header">
+    <div class="bottom-header white-bg">
         <div class="container">
-            <div class="flex-container justify-sp-between">
-
+            <div class="flex-container justify-sp-between top-navbar">
+                <div class="logo flex-element align-center">
+                    <a href="">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="navbar flex-container align-center">
+                    <li class=""><a href="">Home</a></li>
+                    <li class=""><a href="">Product</a></li>
+                    <li class=""><a href="">Hot Deals</a></li>
+                    <li class=""><a href="">About</a></li>
+                    <li class="r"><a href="">Contact</a></li>
+                </ul>
+                <div class="user-controls flex-container align-center">
+                    <a href="#" class=""><span class="icon-search-ic"></span></a>
+                    <a href="#" class=""><span class="icon-user-ic"></span></a>
+                    <a href="#" class=""><span class="icon-cart-ic pos-rel"><span class="label label-default basket-bubble">5</span></span></a>
+                </div>
             </div>
         </div>
     </div>
@@ -50,19 +72,429 @@
 
 <!--MAIN START-->
 <main>
-    <section class="default-section">
-        <div class="container">
-            <div class="title text-center">
-                <span><span class="orange-text">NEW</span></span>
+    <section>
+        <div class="items-carousel flex-container align-center">
+            <div class="container">
+                    <div class="items-carousel-description">
+                        <div class="title big orange-text">
+                            <span>FULL WINTER KIT</span>
+                        </div>
+                            <span class="profitable">Half Jacket + Skiny Trousers + Boot leather</span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <div class="price-wrapper profitable">
+                            <span class="price">Price: 120$</span>
+                            <a href="#" class="order-now"><span class="custom-icon icon-cart-ic"></span>Order Now</a>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>
+
+    <!--NEW ARRIVALS START-->
+    <section class="default-section">
+        <div class="container">
+            <div class="title text-center">
+                <span><span class="orange-text">NEW</span> ARRIVALS</span>
+            </div>
+            <span class="subtitle text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+            <div class="new-items">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="item-img">
+                                <a href="category.html">
+                                    <img src="img/item-img-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-description">
+                                <div class="item-title">
+                                    <a href="">Reebok Track Jacket</a>
+                                </div>
+                                <div class="item-price">
+                                    <span>100$</span>
+                                </div>
+                                <div class="more-info-on-hover">
+                                    <div class="size">
+                                        sizes    :    s - m - l - xl
+                                    </div>
+                                    <ul class="colors">
+                                        <li class="red-bg"></li>
+                                        <li class="black-bg"></li>
+                                        <li class="blue-bg"></li>
+                                        <li class="green-bg"></li>
+                                    </ul>
+                                    <ul class="item-controls">
+                                        <li><a href=""><span class="custom-icon icon-share-ic"></span></a></li>
+                                        <li><a href=""><span class="custom-icon icon-add-cart-ic"></span></a></li>
+                                        <li><a href=""><span class="custom-icon icon-like-ic"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="item-img">
+                                <a href="category.html">
+                                    <img src="img/item-img-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-title">
+                                <a href="">Reebok Track Jacket</a>
+                            </div>
+                            <div class="item-price orange-text">
+                                <span>100$</span>
+                            </div>
+                            <div class="more-info-on-hover">
+                                <div class="size">
+                                    sizes    :    s - m - l - xl
+                                </div>
+                                <ul class="colors">
+                                    <li class="red-bg"></li>
+                                    <li class="black-bg"></li>
+                                    <li class="blue-bg"></li>
+                                    <li class="green-bg"></li>
+                                </ul>
+                                <ul class="item-controls">
+                                    <li><a href=""><span class="custom-icon icon-share-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-add-cart-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-like-ic"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="item-img">
+                                <a href="category.html">
+                                    <img src="img/item-img-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-title">
+                                <a href="">Reebok Track Jacket</a>
+                            </div>
+                            <div class="item-price orange-text">
+                                <span>100$</span>
+                            </div>
+                            <div class="more-info-on-hover">
+                                <div class="size">
+                                    sizes    :    s - m - l - xl
+                                </div>
+                                <ul class="colors">
+                                    <li class="red-bg"></li>
+                                    <li class="black-bg"></li>
+                                    <li class="blue-bg"></li>
+                                    <li class="green-bg"></li>
+                                </ul>
+                                <ul class="item-controls">
+                                    <li><a href=""><span class="custom-icon icon-share-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-add-cart-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-like-ic"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="item-img">
+                                <a href="category.html">
+                                    <img src="img/item-img-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-title">
+                                <a href="">Reebok Track Jacket</a>
+                            </div>
+                            <div class="item-price orange-text">
+                                <span>100$</span>
+                            </div>
+                            <div class="more-info-on-hover">
+                                <div class="size">
+                                    sizes    :    s - m - l - xl
+                                </div>
+                                <ul class="colors">
+                                    <li class="red-bg"></li>
+                                    <li class="black-bg"></li>
+                                    <li class="blue-bg"></li>
+                                    <li class="green-bg"></li>
+                                </ul>
+                                <ul class="item-controls">
+                                    <li><a href=""><span class="custom-icon icon-share-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-add-cart-ic"></span></a></li>
+                                    <li><a href=""><span class="custom-icon icon-like-ic"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more text-center">
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </div>
+    </section>
+    <!--NEW ARRIVALS END-->
+
+    <!--FULL WINTER KIT START-->
+    <div class="section default-section flex-container justify-sp-between">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="kit white-bg flex-container justify-sp-between">
+                        <div class="sales-block">
+                            <div class="light-orange-bg"></div>
+                            <div class="orange-bg"></div>
+                            <div>Sale</div>
+                            <div>50%</div>
+                        </div>
+                        <div class="text-block">
+                            <span>FULL WINTER KIT</span>
+                            <p>Half Jacket + Skiny Trousers + Boot leather</p>
+                        </div>
+                        <div class="price-block">
+                            <a href=""><span class="custom-icon icon-add-to-cart-ic"></span></a>
+                            <span class="orange-text">120$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="area white-bg flex-container justify-sp-between text-center">
+                        <span>adv <span class="orange-text"> area</span></span>
+                        <p>470 x 100</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FULL WINTER KIT END-->
+
+    <!--BEST SALES START-->
+    <section class="default-section">
+        <div class="container">
+            <div class="title text-center">
+                <span><span class="orange-text">BEST</span> SALES</span>
+            </div>
+            <span class="subtitle text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
+            <div class="new-items">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="item-mini align-center">
+                            <div class="item-mini-img">
+                                <a href="">
+                                    <img src="img/item-img-1-min.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-mini-description">
+                                <div class="item-mini-title">
+                                    <a href="">Reebok Track Jacket</a>
+                                </div>
+                                <div class="item-mini-purchase">
+                                    <div class="item-mini-info flex-container justify-sp-between">
+                                        <div class="item-mini-rating">
+                                            <ul>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="item-mini-price orange-text">
+                                            <span>100$</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-mini-add-to-cart">
+                                        <span class="custom-icon icon-add-cart-ic-hover"></span>
+                                        <a href="" class="orange-text">add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-mini align-center">
+                            <div class="item-mini-img">
+                                <a href="">
+                                    <img src="img/item-img-1-min.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-mini-description">
+                                <div class="item-mini-title">
+                                    <a href="">Reebok Track Jacket</a>
+                                </div>
+                                <div class="item-mini-purchase">
+                                    <div class="item-mini-info flex-container justify-sp-between">
+                                        <div class="item-mini-rating">
+                                            <ul>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="item-mini-price orange-text">
+                                            <span>100$</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-mini-add-to-cart">
+                                        <span class="custom-icon icon-add-cart-ic-hover"></span>
+                                        <a href="" class="orange-text">add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-mini align-center">
+                            <div class="item-mini-img">
+                                <a href="">
+                                    <img src="img/item-img-1-min.png" alt="">
+                                </a>
+                            </div>
+                            <div class="item-mini-description">
+                                <div class="item-mini-title">
+                                    <a href="">Reebok Track Jacket</a>
+                                </div>
+                                <div class="item-mini-purchase">
+                                    <div class="item-mini-info flex-container justify-sp-between">
+                                        <div class="item-mini-rating">
+                                            <ul>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                                <li class="rating-icon">
+                                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="item-mini-price orange-text">
+                                            <span>100$</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-mini-add-to-cart">
+                                        <span class="custom-icon icon-add-cart-ic-hover"></span>
+                                        <a href="" class="orange-text">add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--BEST SALES END-->
+
+    <!--SUBSCRIBE START-->
+    <div class="subscribe default-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="subscribe-form white-bg flex-container align-center justify-sp-between">
+                        <div class="subscribe-description">
+                            <span class="subscribe-title orange-text">NEWS LETTERS</span>
+                            <span class="subscribe-text">join us now to get all news and special offers</span>
+                        </div>
+                        <form class="flex-container align-center">
+                            <div class="subscribe-input-group">
+                                <label for="subscribeEmail" class="custom-icon icon-mail-ic"></label>
+                                <input type="email" class="subscribe-input" id="subscribeEmail" placeholder="type your email here">
+                            </div>
+                            <button class="btn btn-default">join us</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SUBSCRIBE END-->
 </main>
 <!--MAIN END-->
 
+<!--FOOTER START-->
+    <div class="footer white-bg">
+        <div class="container">
+            <div class="footer-panel flex-container justify-sp-between">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <a href="">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <span class="logo-text-below">shopy c 2015 . your copy right here</span>
+                </div>
+                <div class="footer-links flex-container justify-sp-around">
+                    <ul class="link-list">
+                        <li class="footer-link">about us</li>
+                        <li class="footer-link">contact us</li>
+                        <li class="footer-link">support</li>
+                    </ul>
+                    <ul class="link-list">
+                        <li class="footer-link">our feed</li>
+                        <li class="footer-link">terms and conditions</li>
+                        <li class="footer-link">our privacy</li>
+                    </ul>
+                    <ul class="link-list">
+                        <li class="footer-link">join us</li>
+                        <li class="footer-link">live support</li>
+                    </ul>
+                </div>
+                <div class="footer-payment">
+                    <span class="orange-text">Payment Methods</span>
+                    <ul class="footer-cards">
+                        <li class="icon-amex-ic"></li>
+                        <li class="icon-no-name-cart-1-ic"></li>
+                        <li class="icon-visa-ic"></li>
+                        <li class="icon-master-cart-ic"></li>
+                        <li class="icon-no-name-cart-2-ic"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--FOOTER END-->
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/plugins.min.js"></script>
 </body>
 </html>
