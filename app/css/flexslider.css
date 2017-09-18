@@ -235,29 +235,14 @@ html[xmlns] .flexslider .slides {
   -webkit-transform: translateY(-50%) rotate(90deg);
       -ms-transform: translateY(-50%) rotate(90deg);
           transform: translateY(-50%) rotate(90deg);
-  left: -130px;
+  left: -50px;
 }
-.item-flexslider .flex-control-paging li a{
-  background: #fff;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  -webkit-border-radius: 0;
-          border-radius: 0;
-  width: 16px;
-  height: 10px;
-  -webkit-transition: all .3s linear;
-  -o-transition: all .3s linear;
-  transition: all .3s linear;
-}
+
 .item-flexslider .flex-control-nav li + li{
   margin-left: 9px;
 }
 .item-flexslider .flex-control-paging li a:hover{
   background: #ff5912;
-}
-.item-flexslider .flex-control-paging li a.flex-active{
-  background: #ff5912;
-  width: 36px;
 }
 .item-flexslider .flex-direction-nav{
   display: none;

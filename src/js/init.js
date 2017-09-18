@@ -79,7 +79,7 @@ $( function() {
         $(this).attr('min', values[0]);
         range.slider( "option", "values", [ values[0] , this.value ] );
 
-    })
+    });
 
 
 //    flexslider init
@@ -91,16 +91,25 @@ $( function() {
         });
     });
 
+
+    // flexslider home
     $(window).load(function() {
         $('.item-flexslider').flexslider({
             animation: "slide"
         });
     });
 
+// slick nav init
 
-//    formstayler init
+    $('.navbar').slicknav({
+        appendTo: 'header .bottom-header .flex-container.justify-sp-between',
+        label: ''
+    });
+
+    //    formstayler init
     $('.custom-number').styler();
 
-} );
+});
+
 
 

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="css/flexslider.css">
     <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/slicknav.css">
 
 
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -30,7 +31,7 @@
 </head>
 <body>
 <!--HEADER START-->
-<header>
+<header class="header">
     <div class="top-header white-bg">
         <div class="container">
             <div class="flex-container justify-sp-between">
@@ -78,7 +79,10 @@
     <div class="product-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5 col-xs-12">
+                    <div class="title big orange-text text-center hidden-lg hidden-md">
+                        <span>FULL WINTER KIT</span>
+                    </div>
                     <div class="product-carousel center-block">
                         <div class="flexslider">
                             <ul class="slides">
@@ -95,9 +99,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-7 col-xs-12">
                     <div class="product-description">
-                        <div class="title big orange-text">
+                        <div class="title big orange-text hidden-xs hidden-sm">
                             <span>FULL WINTER KIT</span>
                         </div>
                         <span class="profitable">Half Jacket + Skiny Trousers + Boot leather</span>
@@ -132,7 +136,7 @@
                                     </div>
                                     <div class="quantity flex-container align-center">
                                         <span>Choose Quantity</span>
-                                        <input type="number" name="" class="custom-number">
+                                        <input type="number" name="" min="0" value="1" class="custom-number">
                                     </div>
                                 </form> 
                             </div>
@@ -162,7 +166,7 @@
             <span class="subtitle text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry</span>
             <div class="new-items">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="category.html">
@@ -195,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="category.html">
@@ -226,7 +230,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="category.html">
@@ -257,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="item">
                             <div class="item-img">
                                 <a href="category.html">
@@ -371,6 +375,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
 <script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
 <script src="js/plugins.min.js"></script>
 </body>
 </html>
