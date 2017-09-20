@@ -1263,6 +1263,7 @@ html .ui-button.ui-state-disabled:focus{
     .footer-links {
         flex-direction: column;
         padding-bottom: 10px;
+        padding-top: 0;
     }
     .footer .footer-panel {
         height: 400px;
