@@ -16,7 +16,7 @@
 }
 .jq-number__field input {
 	box-sizing: border-box;
-	width: 126%;
+	width: 52px;
 	border: none;
 	outline: none;
 	background: none;

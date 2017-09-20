@@ -309,12 +309,16 @@ header .bottom-header{
     }
     .slicknav_menu{
         background: none;
-        margin-top: -10px;
+
     }
     .bottom-header .flex-container{
         -webkit-flex-wrap: wrap;
             -ms-flex-wrap: wrap;
                 flex-wrap: wrap;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 .items-carousel{
@@ -828,7 +832,11 @@ header .bottom-header{
 
 @media (max-width: 767px) {
     .item-mini{
-        margin: 15px 100px;
+        margin: 15px 0px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 }
 
@@ -985,6 +993,9 @@ button.btn {
     font-size: 18px;
     color: #ff5912;
     margin-bottom: 20px;
+}
+.aside-section .range span{
+    outline: none;
 }
 @media (max-width: 991px) {
     .category-wrap{
@@ -1253,7 +1264,7 @@ html .ui-button.ui-state-disabled:focus{
     font-size: 18px;
     -webkit-border-radius: 30px;
             border-radius: 30px;
-    padding: 15px 24px;
+    padding: 17px 24px 15px 24px;
     color: #fff;
     line-height: inherit;
 }
@@ -1433,6 +1444,7 @@ html .ui-button.ui-state-disabled:focus{
         -webkit-flex-direction: row;
             -ms-flex-direction: row;
                 flex-direction: row;
+        padding-top: 15px;
     }
     .footer .link-list{
         margin: 0 20px;
@@ -1448,6 +1460,7 @@ html .ui-button.ui-state-disabled:focus{
         -webkit-flex-direction: column;
             -ms-flex-direction: column;
                 flex-direction: column;
+        padding-bottom: 10px;
     }
     .footer .footer-panel {
         height: 400px;

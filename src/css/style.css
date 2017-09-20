@@ -279,10 +279,11 @@ header .bottom-header{
     }
     .slicknav_menu{
         background: none;
-        margin-top: -10px;
+
     }
     .bottom-header .flex-container{
         flex-wrap: wrap;
+        align-items: center;
     }
 }
 .items-carousel{
@@ -719,7 +720,8 @@ header .bottom-header{
 
 @media (max-width: 767px) {
     .item-mini{
-        margin: 15px 100px;
+        margin: 15px 0px;
+        justify-content: center;
     }
 }
 
@@ -866,6 +868,9 @@ button.btn {
     font-size: 18px;
     color: #ff5912;
     margin-bottom: 20px;
+}
+.aside-section .range span{
+    outline: none;
 }
 @media (max-width: 991px) {
     .category-wrap{
@@ -1105,7 +1110,7 @@ html .ui-button.ui-state-disabled:focus{
 .btn-radius {
     font-size: 18px;
     border-radius: 30px;
-    padding: 15px 24px;
+    padding: 17px 24px 15px 24px;
     color: #fff;
     line-height: inherit;
 }
@@ -1247,6 +1252,7 @@ html .ui-button.ui-state-disabled:focus{
     }
     .footer-links {
         flex-direction: row;
+        padding-top: 15px;
     }
     .footer .link-list{
         margin: 0 20px;
@@ -1256,6 +1262,7 @@ html .ui-button.ui-state-disabled:focus{
 @media (max-width: 479px) {
     .footer-links {
         flex-direction: column;
+        padding-bottom: 10px;
     }
     .footer .footer-panel {
         height: 400px;
